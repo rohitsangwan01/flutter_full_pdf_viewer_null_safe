@@ -11,3 +11,10 @@ dependencies:
     sdk: flutter
 
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.alveliu.flutterfullpdfviewer
+        pluginClass: FlutterFullPdfViewerPlugin
+      ios:
+        pluginClass: FlutterFullPdfViewerPlugin
