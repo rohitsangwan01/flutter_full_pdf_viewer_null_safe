@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_full_pdf_viewer'
+  s.name             = 'flutter_full_pdf_viewer_null_safe'
   s.version          = '1.0.1'
   s.summary          = 'A fully functional pdf viewer for both iOS and Android.'
   s.description      = <<-DESC
@@ -16,7 +16,6 @@ A fully functional pdf viewer for both iOS and Android.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.framework        = 'WebKit'
-  
+
   s.ios.deployment_target = '8.0'
 end
-
